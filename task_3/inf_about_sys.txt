@@ -1,0 +1,73 @@
+
+Uptime system:  11:47:15 up 35 min,  1 user,  load average: 0,12, 0,15, 0,10
+
+Current users:
+kali     tty7         2021-03-21 11:11 (:0)
+
+15 resent logins :
+
+kali     tty7         :0               Sun Mar 21 11:11   still logged in
+reboot   system boot  5.10.0-kali4-amd Sun Mar 21 11:11   still running
+kali     tty7         :0               Sat Mar 20 22:01 - crash  (13:09)
+reboot   system boot  5.10.0-kali4-amd Sat Mar 20 21:50   still running
+kali     tty7         :0               Sat Mar 20 12:20 - crash  (09:29)
+reboot   system boot  5.10.0-kali4-amd Sat Mar 20 12:19   still running
+kali     tty7         :0               Thu Mar 18 20:49 - 23:20  (02:30)
+reboot   system boot  5.10.0-kali4-amd Thu Mar 18 20:48 - 23:20  (02:32)
+kali     tty7         :0               Thu Mar 18 19:52 - 20:47  (00:55)
+reboot   system boot  5.7.0-kali1-amd6 Thu Mar 18 19:46 - 20:47  (01:01)
+kali     tty7         :0               Thu Mar 18 14:15 - crash  (05:31)
+reboot   system boot  5.7.0-kali1-amd6 Thu Mar 18 14:14 - 20:47  (06:33)
+kali     tty7         :0               Thu Mar 18 13:28 - crash  (00:45)
+reboot   system boot  5.7.0-kali1-amd6 Thu Mar 18 12:34 - 20:47  (08:13)
+dss      tty1                          Thu Mar 18 13:20 - down   (00:07)
+
+wtmp begins Wed Dec 23 13:55:50 2020
+
+TOP-10 processes by RAM usage:
+USER       UID COMMAND             PID %CPU %MEM
+kali      1000 x-www-browser      1344  3.7 10.3
+kali      1000 Web Content        1447  3.2  7.6
+root         0 Xorg                626  1.3  5.7
+kali      1000 Privileged Cont    1467  0.0  4.8
+kali      1000 xfdesktop          1145  0.0  3.7
+kali      1000 WebExtensions      1490  0.0  3.6
+kali      1000 qterminal          1328  0.5  3.2
+kali      1000 xfwm4               940  0.2  2.7
+kali      1000 Web Content        1580  0.0  2.3
+kali      1000 blueman-applet     1211  0.0  1.6
+
+TOP-10 processes by CPU usage:
+USER       UID COMMAND             PID %CPU %MEM
+kali      1000 x-www-browser      1344  3.7 10.3
+kali      1000 Web Content        1447  3.2  7.6
+root         0 Xorg                626  1.3  5.7
+kali      1000 qterminal          1328  0.5  3.2
+kali      1000 xfwm4               940  0.2  2.7
+kali      1000 VBoxClient          892  0.1  0.0
+root         0 systemd               1  0.0  0.3
+root         0 kthreadd              2  0.0  0.0
+root         0 rcu_gp                3  0.0  0.0
+root         0 rcu_par_gp            4  0.0  0.0
+
+
+Open TCP/UDP ports: State Recv-Q Send-Q Local Address:Port Peer Address:PortProcess
+
+
+Virtual Memory usage :
+
+               total        used        free      shared  buff/cache   available
+Mem:         3025884      898816     1466088       54736      660980     1914324
+Swap:         999420           0      999420
+Total:       4025304      898816     2465508
+
+
+Usage of disk space :
+
+Файловая система Размер Использовано  Дост Использовано% Cмонтировано в
+udev               1,5G            0  1,5G            0% /dev
+tmpfs              296M         944K  295M            1% /run
+/dev/sda1           39G          15G   23G           40% /
+tmpfs              1,5G          22M  1,5G            2% /dev/shm
+tmpfs              5,0M            0  5,0M            0% /run/lock
+tmpfs              296M          60K  296M            1% /run/user/1000
